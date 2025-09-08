@@ -11,6 +11,6 @@ total_lots = (talents * pounds_in_talents * lots_in_pounds) + (pounds * lots_in_
 total_grams = total_lots * grams_in_lots
 
 kilograms = int(total_grams / 1000)
-grams = round(total_grams % 1000)
+grams = round(total_grams % 1000 , 2)
 
-print(f"The weight in modern units is {kilograms} kilograms and {grams:.2f} grams")
+print(f"The weight in modern units is {kilograms} kilograms and {grams} grams")
