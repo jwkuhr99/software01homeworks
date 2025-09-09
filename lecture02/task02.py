@@ -7,4 +7,4 @@ radius = float(input("Enter the radius of the circle: "))
 area = math.pi * radius ** 2
 
 #laat de oppervlakte zien afgerond op 2 decimalen
-print(f"The area of the circle with radius {radius:.2f} is {area:.2f}")
+print(f"\nThe area of the circle with radius {radius:.2f} is {area:.2f}")

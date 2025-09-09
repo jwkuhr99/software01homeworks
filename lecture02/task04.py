@@ -9,6 +9,6 @@ product = num1 * num2 * num3
 average = total/3
 
 #laat de resultaten zien
-print(f"The total of the numbers is: {total:.0f}.")
+print(f"\nThe total of the numbers is: {total:.0f}.")
 print(f"The product of the numbers is: {product:.0f}.")
 print(f"The average of the numbers is: {average:.0f}.")

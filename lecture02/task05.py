@@ -19,4 +19,5 @@ kilograms = int(total_grams / 1000)
 grams = round(total_grams % 1000 , 2)
 
 #laat de resultaten zien
-print(f"The weight in modern units is {kilograms} kilograms and {grams} grams")
+print(f"\nThe weight in modern units is {kilograms} kilograms and {grams:.2f} grams")
+print(f"The total mass is {grams:.2f}.")

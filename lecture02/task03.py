@@ -7,5 +7,5 @@ area = length * width
 perimeter = 2 * (length + width)
 
 #laat de berekeningen zien
-print(f"The area of the rectangle is: {area:.2f}.")
+print(f"\nThe area of the rectangle is: {area:.2f}.")
 print(f"The perimeter of the rectangle is: {perimeter:.2f}.")
