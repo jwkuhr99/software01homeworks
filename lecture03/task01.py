@@ -1,4 +1,4 @@
-length = float(input("So you caught a zander? Good job!!! Tell me the length of the fish in centimeters, to see if you can legally keep it: "))
+length = float(input("So you caught a zander? Good job!!! Tell me the length of the fish, to see if you can legally keep it (cm): "))
 
 legal_size_limit = 42
 
