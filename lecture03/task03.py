@@ -6,7 +6,7 @@ if gender.lower() == "male":
 
     if hemoglobin_level < 134:
         print("\nHemoglobin level too low.")
-    elif hemoglobin_level >= 134 and hemoglobin_level <= 167:
+    elif 134 <= hemoglobin_level <= 167:
         print("\nHemoglobin level normal.")
     elif hemoglobin_level > 167:
         print("\nHemoglobin level too high.")
@@ -16,7 +16,7 @@ elif gender.lower() == "female":
 
     if hemoglobin_level < 117:
         print("\nHemoglobin level too low.")
-    elif hemoglobin_level >= 117 and hemoglobin_level <= 155:
+    elif 117 <= hemoglobin_level <= 155:
         print("\nHemoglobin level normal.")
     elif hemoglobin_level > 155:
         print("\nHemoglobin level too high.")
