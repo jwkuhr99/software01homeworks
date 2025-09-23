@@ -5,11 +5,8 @@ def find_min_max():
         user_input = input("Enter a number (or enter nothing to finish): ")
         if user_input == "":
             break
-        try:
-            number = float(user_input)
-            numbers.append(number)
-        except ValueError:
-            print("That's not a valid number. Please try again.")
+        number = float(user_input)
+        numbers.append(number)
 
     if numbers:
         print(f"Smallest number entered: {min(numbers)}")
